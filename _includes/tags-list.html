@@ -1,0 +1,43 @@
+<div id="tags-page">
+  <div class="tags-list">
+    {% for coll in site.collections %}
+    {% unless coll.label == 'posts' %}
+    {% comment %}map, flatten and sort{% endcomment %}
+    {% assign tags = site[coll.label] | map: 'tags' | join: ','  | split: ',' | sort %}
+    {% assign allTags = allTags | concat: tags | sort %}
+    {% endunless %}
+    {% endfor %}
+
+    {% assign previousTag = "" %}
+    {% assign counter = 0 %}
+
+    {% for currentTag in allTags %}
+
+    {% comment %}first loop : initializing previousTag{% endcomment %}
+
+    {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+    {% endif %}
+
+    {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+    {% else %}
+    {% assign size = counter | times: 2 | plus: 10 %}
+    <span class="icon">{% include svg/tags.svg %}</span>  <span class="tag-name"><a href="/tagged/{{ previousTag }}/" style="font-size: {{ size }}px">{{ previousTag }}</a></span>
+    {% assign counter = 1 %}
+    {% endif %}
+
+    {% comment %}last loop : flushing what's left to print{% endcomment %}
+
+    {% if forloop.last %}
+    {% assign size = counter | times: 2 | plus: 10 %}
+    <span class="icon">{% include svg/tags.svg %}</span>  <span class="tag-name"><a href="/tagged/{{ currentTag }}/" style="font-size: {{ size }}px">{{ currentTag }}</a></span>
+    {% endif %}
+
+    {% assign previousTag = currentTag %}
+
+    {% endfor %}
+  </div>
+
+
+</div>

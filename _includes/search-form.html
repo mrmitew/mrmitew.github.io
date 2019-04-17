@@ -1,0 +1,47 @@
+<div class="row">
+  <!-- Search form -->
+  <form method="get" action="/search" data-search-form>
+    <input type="search" name="q" placeholder="Search for articles" data-search-input style="width: 80%">
+    <button value="Search" type="submit" name="action">{% include svg/search.svg %}</button>
+  </form>
+</div>
+
+<!-- Search results placeholder -->
+<p data-search-found class="search-found">
+  <small data-search-found>
+    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+  </small>
+</p>
+
+<div data-search-results class="search-results">
+  <ul class="post-list">
+
+  </ul>
+</div>
+
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+
+  <article class="results post-body">
+    <h2 class="post-title">
+      <a href="##Url##">
+        ##Title##
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <span class="post-date">{{ ##Date## | date_to_string }}</span>
+    </div>
+
+    {% if site.show_excerpts %}
+    {% assign excerpt = "##Excerpt##" %}
+    {{ excerpt }}
+    {% endif %}
+
+  </article>
+
+</script>
+
+<!-- Search script - Must appear after template -->
+<script src="{{ "assets/js/search.js" | relative_url }}"></script>

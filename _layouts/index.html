@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div id="content" class="content">
+
+  {{ content | markdownify }}
+
+  {% for post in paginator.posts %}
+    {% unless post.title == "Index" or post.title == "Search" or post.sidebar_link == true or post.title == 'Tags' %}
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <article class="post-body">
+      {% include post-meta.html post=post %}
+
+      {% if post.show_full_content %}
+        {{ post.content }}
+      {% else %}
+        {% if post.excerpt %}
+          {{ post.excerpt }}
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+        {% if post.excerpt %}
+          {% capture content_words %}
+            {{ post.content | number_of_words }}
+          {% endcapture %}
+          {% capture excerpt_words %}
+            {{ post.excerpt | number_of_words }}
+          {% endcapture %}
+
+          {% if content_words != excerpt_words %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="more">read more&hellip;</a>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+
+      <!-- {% if post.tags %}<br/>&nbsp;{% endif %} -->
+      {% include post-tags.html post=post %}
+
+    </article>
+    {% endunless %}
+  {% endfor %}
+
+  {% include custom/pagination.html %}
+</div>

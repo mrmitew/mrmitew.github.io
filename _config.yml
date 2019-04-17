@@ -1,1 +1,73 @@
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+plugins:
+  - jekyll-gist
+  - jekyll-paginate-v2
+
+# Setup
+title:            Stefan Mitev
+tagline:          'Personal website and blog'
+description:      ''
+url:              'https://mitevstefan.com'
+baseurl:          ''
+#version: 1.0.0
+
+author:
+  name:           'Stefan Mitev'
+  url:            https://mitevstefan.com
+
+# Collection configurations
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+  pages:
+    output: true
+    permalink: /:path/
+
+collections_dir: _content
+
+show_excerpts: true
+
+# Sidebar link settings
+sidebar_home_link:  true
+
+permalink: pretty
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 15
+  debug: false
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+autopages:
+  enabled: true
+  tags:
+#    layouts:
+#      - autopage_collections_tags.html
+    #title: ':tag'
+    enabled: false
+  categories:
+#    layouts:
+#      - autopage_cat.html
+    enabled: false
+  collections:
+    enabled: true
+#    layouts:
+#      - autopage_collection.html
+    slugify:
+      mode: 'ascii'
+      cased: true
+
+# Comments
+disqus:
+  shortname: 'mitev-stefan'

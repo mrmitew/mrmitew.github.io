@@ -12,7 +12,7 @@ description:      ''
 url:              'https://mitevstefan.com'
 baseurl:          ''
 #version: 1.0.0
-google_analytics: 'UA-138726311-1'
+google_analytics: 'UA-138726311-2'
 
 author:
   name:           'Stefan Mitev'

@@ -86,11 +86,11 @@ h1, h2, h3, h4, h5, h6, .site-title {
   text-rendering: optimizeLegibility; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 h3 {
   margin-top: 1.5rem;
@@ -697,6 +697,9 @@ article + *, .post-body ~ section {
 .post-title,
 .post-title a {
   color: #313131; }
+
+.page-title, .post-title {
+  font-size: 2em; }
 
 .page-title, .post-title {
   font-weight: normal;

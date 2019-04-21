@@ -5,7 +5,7 @@
     "title": "Index",
     "content": "\n",
     "link": "/articles/general/",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "\n",
     "search_omit": "true"
     }
@@ -21,7 +21,7 @@
     "title": "Articles",
     "content": "All articles\n",
     "link": "/articles",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "All articles\n",
     "search_omit": "true"
     }
@@ -40,7 +40,7 @@
     "title": "About",
     "content": "My name is Stefan Mitev and am a software engineer with:\n\n  6 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
     "link": "/about/",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  6 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
     "search_omit": ""
     }
@@ -48,7 +48,7 @@
     "title": "Search",
     "content": "\n",
     "link": "/search/",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "\n",
     "search_omit": "true"
     }
@@ -56,7 +56,7 @@
     "title": "Speaking",
     "content": "Upcoming\n\n  Nothing scheduled yet\n\n\nPast\nAnimation and motion in Flutter - 4 March 2019\nMaxdoro, Eindhoven, Netherlands\nPresentation / Source code / Blog post / Event\n\nAndroid’s Navigation Component - 14 June 2018\nPixplicity, Utrecht, Netherlands\nPresentation\n\nBind my views (Data binding) - 22 No...",
     "link": "/speaking/",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "Upcoming\n\n  Nothing scheduled yet\n\n\n",
     "search_omit": ""
     }
@@ -64,7 +64,7 @@
     "title": "Tags",
     "content": "\n",
     "link": "/tags/",
-    "date": "2019-04-21 12:47:34 +0000",
+    "date": "2019-04-21 12:57:18 +0000",
     "excerpt": "\n",
     "search_omit": ""
     }
@@ -78,7 +78,7 @@
       "title": "About",
       "content": "My name is Stefan Mitev and am a software engineer with:\n\n  6 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
       "link": "/about/",
-      "date": "2019-04-21 12:47:34 +0000",
+      "date": "2019-04-21 12:57:18 +0000",
       "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  6 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
       "search_omit": ""
       }
@@ -91,7 +91,7 @@
       "title": "Speaking",
       "content": "Upcoming\n\n  Nothing scheduled yet\n\n\nPast\nAnimation and motion in Flutter - 4 March 2019\nMaxdoro, Eindhoven, Netherlands\nPresentation / Source code / Blog post / Event\n\nAndroid’s Navigation Component - 14 June 2018\nPixplicity, Utrecht, Netherlands\nPresentation\n\nBind my views (Data binding) - 22 No...",
       "link": "/speaking/",
-      "date": "2019-04-21 12:47:34 +0000",
+      "date": "2019-04-21 12:57:18 +0000",
       "excerpt": "Upcoming\n\n  Nothing scheduled yet\n\n\n",
       "search_omit": ""
       }
@@ -102,7 +102,7 @@
       "title": "Tags",
       "content": "\n",
       "link": "/tags/",
-      "date": "2019-04-21 12:47:34 +0000",
+      "date": "2019-04-21 12:57:18 +0000",
       "excerpt": "\n",
       "search_omit": ""
       }

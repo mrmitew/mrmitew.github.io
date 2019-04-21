@@ -5,7 +5,7 @@ author: Stefan Mitev
 comments: false
 date: 21.04.2019
 tags:
-- ci
+- CI
 - jekyll
 ---
 

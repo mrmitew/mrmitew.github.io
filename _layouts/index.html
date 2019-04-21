@@ -20,7 +20,7 @@ layout: default
         {{ post.content }}
       {% else %}
         {% if post.excerpt %}
-          {{ post.excerpt }}
+          {{ post.excerpt | markdownify }}
         {% else %}
           {{ post.content }}
         {% endif %}

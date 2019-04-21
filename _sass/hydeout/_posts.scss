@@ -29,6 +29,10 @@ article + *, .post-body ~ section {
 }
 
 .page-title, .post-title {
+  font-size: 2em;
+}
+
+.page-title, .post-title {
   font-weight: normal;
   font-family: 'Roboto-Light', Arial, sans-serif;
 }

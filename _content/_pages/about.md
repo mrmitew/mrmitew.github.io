@@ -6,7 +6,7 @@ permalink: "/about/"
 ---
 
 My name is Stefan Mitev and am a software engineer with: 
- * 6 years of experience with Android mobile development
+ * 7 years of experience with Android mobile development
  * 1/2+ year of experience with Flutter (iOS and Android)
  * 1 year of experience with Android platform/ROM development
  * 1 year of experience with Android Wear development

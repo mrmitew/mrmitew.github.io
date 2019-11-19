@@ -1,11 +1,10 @@
-<div class="row">
-  <!-- Search form -->
-  <form method="get" action="/search" data-search-form>
-    <input type="search" name="q" placeholder="Search for articles" data-search-input style="width: 80%">
-    <button value="Search" type="submit" name="action">{% include svg/search.svg %}</button>
-  </form>
-</div>
-
+<!-- Search form -->
+<form method="get" action="/search" data-search-form>
+  <div class="search-row">
+  <input type="search" name="q" placeholder="Search for articles" data-search-input>
+    <input value="Search" type="submit" name="action">
+  </div>
+</form>
 <!-- Search results placeholder -->
 <p data-search-found class="search-found">
   <small data-search-found>

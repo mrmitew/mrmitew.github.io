@@ -11,7 +11,7 @@ permalink: "/speaking/"
 ### Past
 **Application of Dynamic Feature Modules** - 20 February 2020  
 _Backbase, Amsterdam, Netherlands_  
-Presentation (soon) | [Event](https://www.meetup.com/dutch-aug/events/268428399/)
+Presentation (soon) | Source code (soon) | [Event](https://www.meetup.com/dutch-aug/events/268428399/)
 
 **Animation and motion in Flutter** - 4 March 2019  
 _Maxdoro, Eindhoven, Netherlands_  

@@ -5,7 +5,7 @@
     "title": "Index",
     "content": "\n",
     "link": "/articles/general/",
-    "date": "2020-02-21 18:37:18 +0000",
+    "date": "2022-04-23 11:55:10 +0200",
     "excerpt": "\n",
     "search_omit": "true"
     }
@@ -13,7 +13,7 @@
     "title": "Hello World",
     "content": "Welcome to my personal website and blog!\n\nFor a long time I’ve been thinking to make one, but never really sat down and do it for real. For the time being there are no other blog posts, but I already have planned multiple topics I would like to talk about. Stay tuned! :)\n",
     "link": "/articles/hello-world/",
-    "date": "2019-04-09 00:00:00 +0000",
+    "date": "2019-04-09 00:00:00 +0200",
     "excerpt": "Welcome to my personal website and blog!\n\n",
     "search_omit": ""
     }
@@ -21,7 +21,7 @@
     "title": "Articles",
     "content": "All articles\n",
     "link": "/articles",
-    "date": "2020-02-21 18:37:18 +0000",
+    "date": "2022-04-23 11:55:10 +0200",
     "excerpt": "All articles\n",
     "search_omit": "true"
     }
@@ -29,7 +29,7 @@
     "title": "How I use Travis CI to build my website",
     "content": "Contents:\n\n  How was this website built\n    \n      What is Jekyll\n      What is Github Pages\n      What is Travis CI\n    \n  \n  How is the website repository organized\n    \n      Workflow\n    \n  \n  Setup\n    \n      Github repo\n      Travis CI\n    \n  \n\n\n\n  Disclaimer: This is not a general how-to a...",
     "link": "/articles/using-travis-to-build-my-website/",
-    "date": "2019-04-21 00:00:00 +0000",
+    "date": "2019-04-21 00:00:00 +0200",
     "excerpt": "Contents:\n\n  How was this website built\n    \n      What is Jekyll\n      What is Github Pages\n      What is Travis CI\n    \n  \n  How is the website repository organized\n    \n      Workflow\n    \n  \n  Setup\n    \n      Github repo\n      Travis CI\n    \n  \n\n\n\n  Disclaimer: This is not a general how-to article. Its more of an explanatory article for how I setup my website and everything else needed for having automatic deployments.\n\n\n",
     "search_omit": ""
     }
@@ -38,33 +38,33 @@
 
   ,{
     "title": "About",
-    "content": "My name is Stefan Mitev and am a software engineer with:\n\n  7 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
+    "content": "My name is Stefan Mitev and am a software engineer with:\n\n  9 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
     "link": "/about/",
-    "date": "2020-02-21 18:37:18 +0000",
-    "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  7 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
+    "date": "2022-04-23 11:55:10 +0200",
+    "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  9 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
     "search_omit": ""
     }
   ,{
     "title": "Search",
     "content": "\n",
     "link": "/search/",
-    "date": "2020-02-21 18:37:18 +0000",
+    "date": "2022-04-23 11:55:10 +0200",
     "excerpt": "\n",
     "search_omit": "true"
     }
   ,{
     "title": "Speaking",
-    "content": "Upcoming\n\n  Nothing scheduled yet\n\n\nPast\nApplication of Dynamic Feature Modules - 20 February 2020\nBackbase, Amsterdam, Netherlands\nPresentation (soon) | Source code (soon) | Event\n\nAnimation and motion in Flutter - 4 March 2019\nMaxdoro, Eindhoven, Netherlands\nPresentation | Source code | Blog po...",
+    "content": "Upcoming\n\nING Internal presentations - Monthly\nING, Amsterdam, Netherlands\n\nNothing public yet\n\nPast\n\nGoing with the Flow (Kotlin Flow) - 30 April 2020\nDutch Android User Group, Utrecht, Netherlands\n\nApplication of Dynamic Feature Modules - 20 February 2020\nBackbase, Amsterdam, Netherlands\nPresen...",
     "link": "/speaking/",
-    "date": "2020-02-21 18:37:18 +0000",
-    "excerpt": "Upcoming\n\n  Nothing scheduled yet\n\n\n",
+    "date": "2022-04-23 11:55:10 +0200",
+    "excerpt": "Upcoming\n\n",
     "search_omit": ""
     }
   ,{
     "title": "Tags",
     "content": "\n",
     "link": "/tags/",
-    "date": "2020-02-21 18:37:18 +0000",
+    "date": "2022-04-23 11:55:10 +0200",
     "excerpt": "\n",
     "search_omit": "true"
     }
@@ -76,10 +76,10 @@
   
     ,{
       "title": "About",
-      "content": "My name is Stefan Mitev and am a software engineer with:\n\n  7 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
+      "content": "My name is Stefan Mitev and am a software engineer with:\n\n  9 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year o...",
       "link": "/about/",
-      "date": "2020-02-21 18:37:18 +0000",
-      "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  7 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
+      "date": "2022-04-23 11:55:10 +0200",
+      "excerpt": "My name is Stefan Mitev and am a software engineer with:\n\n  9 years of experience with Android mobile development\n  1/2+ year of experience with Flutter (iOS and Android)\n  1 year of experience with Android platform/ROM development\n  1 year of experience with Android Wear development\n  1/2 year of experience with Android Things development\n  1 year of experience with microcontrollers and interfacing them with mobile applications\n  7 years of experience with web (mostly backend) development\n  3 years of experience with desktop development\n\n\nI graduated cum laude from Fontys University (Netherlands) with a BSc in ICT &amp; Software engineering. Before that I graduated with an excellent diploma in ship navigation from “VMG Sv. Nikolai Chudotvoretz” (Bulgaria) professional maritime highschool.\n\n",
       "search_omit": ""
       }
   
@@ -89,10 +89,10 @@
   
     ,{
       "title": "Speaking",
-      "content": "Upcoming\n\n  Nothing scheduled yet\n\n\nPast\nApplication of Dynamic Feature Modules - 20 February 2020\nBackbase, Amsterdam, Netherlands\nPresentation (soon) | Source code (soon) | Event\n\nAnimation and motion in Flutter - 4 March 2019\nMaxdoro, Eindhoven, Netherlands\nPresentation | Source code | Blog po...",
+      "content": "Upcoming\n\nING Internal presentations - Monthly\nING, Amsterdam, Netherlands\n\nNothing public yet\n\nPast\n\nGoing with the Flow (Kotlin Flow) - 30 April 2020\nDutch Android User Group, Utrecht, Netherlands\n\nApplication of Dynamic Feature Modules - 20 February 2020\nBackbase, Amsterdam, Netherlands\nPresen...",
       "link": "/speaking/",
-      "date": "2020-02-21 18:37:18 +0000",
-      "excerpt": "Upcoming\n\n  Nothing scheduled yet\n\n\n",
+      "date": "2022-04-23 11:55:10 +0200",
+      "excerpt": "Upcoming\n\n",
       "search_omit": ""
       }
   

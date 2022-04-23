@@ -6,9 +6,17 @@ permalink: "/speaking/"
 ---
 
 ### Upcoming
-- Nothing scheduled yet
+
+**ING Internal presentations** - Monthly  
+_ING, Amsterdam, Netherlands_ 
+
+_Nothing public yet_
 
 ### Past
+
+**Going with the Flow** _(Kotlin Flow)_ - 30 April 2020  
+_Dutch Android User Group, Utrecht, Netherlands_  
+
 **Application of Dynamic Feature Modules** - 20 February 2020  
 _Backbase, Amsterdam, Netherlands_  
 Presentation (soon) | Source code (soon) | [Event](https://www.meetup.com/dutch-aug/events/268428399/)

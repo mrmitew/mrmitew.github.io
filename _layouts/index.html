@@ -2,12 +2,56 @@
 layout: default
 ---
 
+{% assign post_counter = 0 %}
+
 <div id="content" class="content">
 
   {{ content | markdownify }}
 
   {% for post in paginator.posts %}
+
     {% unless post.title == "Index" or post.title == "Search" or post.sidebar_link == true or post.title == 'Tags' %}
+    
+    {% if site.google_adsense.enabled %}
+      {% if post_counter == 1 %}
+        {% if jekyll.environment == 'production' %}
+          <hr/>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense.client }}" crossorigin="anonymous"></script>
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-format="fluid"
+              data-ad-layout-key="-gm-c+57-6v-4j"
+              data-ad-client="{{ site.google_adsense.client }}"
+              data-ad-slot="4578882957"></ins>
+          <script>
+            // Request non-personalized ads by default
+            (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;
+            (adsbygoogle=window.adsbygoogle||[]).push({});
+          </script>
+          <script>
+            function updateAdsense() {
+              if (window.CookieConsent.acceptedCategories?.includes("analytics")) {
+                {% if jekyll.environment == 'production' %}  
+                // If consent for analytics is given, then allow personalized ads
+                (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=0;
+                {% endif %}
+              }
+            }
+            // Here, you can use either the class CookieConsent or the instance
+            // created earlier (cc in this case). Both will emit the same events.
+            cc.on("change", (cc) => {
+              updateAdsense()
+            })
+        
+            updateAdsense() // to make sure it is loaded once.
+          </script>
+          <hr/>
+        {% endif %}
+        {% else %}
+            {% assign post_counter = post_counter | plus: 1 %}
+        {% endif %}
+      {% endif %}
+
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}

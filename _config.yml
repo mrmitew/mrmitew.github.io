@@ -71,4 +71,5 @@ autopages:
 
 # Comments
 disqus:
+  enabled: false
   shortname: 'mitev-stefan'

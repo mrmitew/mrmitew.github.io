@@ -30,9 +30,9 @@ layout: default
           </script>
           <script>
             function updateAdsense() {
-              if (window.CookieConsent.acceptedCategories?.includes("analytics")) {
+              if (window.CookieConsent.acceptedCategories?.includes("advertising")) {
                 {% if jekyll.environment == 'production' %}  
-                // If consent for analytics is given, then allow personalized ads
+                // If consent for advertising is given, then allow personalized ads
                 (adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=0;
                 {% endif %}
               }

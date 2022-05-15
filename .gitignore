@@ -1,5 +1,6 @@
 .idea/*
 _site/*
 Gemfile.lock
-.sass-cache/
+.sass-cache
 .obsidian
+.jekyll-metadata

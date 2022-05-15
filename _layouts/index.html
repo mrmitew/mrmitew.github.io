@@ -47,10 +47,9 @@ layout: default
           </script>
           <hr/>
         {% endif %}
-        {% else %}
-            {% assign post_counter = post_counter | plus: 1 %}
-        {% endif %}
       {% endif %}
+      {% assign post_counter = post_counter | plus: 1 %}
+    {% endif %}
 
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">

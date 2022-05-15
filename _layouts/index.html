@@ -15,7 +15,6 @@ layout: default
     {% if site.google_adsense.enabled %}
       {% if post_counter == 1 %}
         {% if jekyll.environment == 'production' %}
-          <hr/>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense.client }}" crossorigin="anonymous"></script>
           <ins class="adsbygoogle"
               style="display:block"
@@ -45,7 +44,6 @@ layout: default
         
             updateAdsense() // to make sure it is loaded once.
           </script>
-          <hr/>
         {% endif %}
       {% endif %}
       {% assign post_counter = post_counter | plus: 1 %}

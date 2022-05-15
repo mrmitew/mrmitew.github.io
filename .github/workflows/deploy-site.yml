@@ -1,8 +1,8 @@
 name: Deploy site
 
-on: workflow_dispatch
-  # push:
-  #   branches: release
+on:
+  push:
+    branches: release
 
 env:
   RUBY_VERSION: 2.7
@@ -11,10 +11,6 @@ jobs:
   build-deploy:
     name: "Build and deploy"
     runs-on: ubuntu-latest
-    env:
-      BUNDLE_PATH: "vendor/bundle"
-      BUNDLE_JOBS: 4
-      BUNDLE_RETRY: 3
 
     steps:
       - name: Checkout

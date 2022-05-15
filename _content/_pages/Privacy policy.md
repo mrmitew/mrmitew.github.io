@@ -61,4 +61,4 @@ This Privacy Policy was last modified on May 14, 2022.
 By using this site, you consent to this privacy policy
 
 ## Contact details
-Stefan Mitev - mr . mitew \[at\] gmail . com
+Stefan Mitev - mr . mitew \[at\] gmail . com 

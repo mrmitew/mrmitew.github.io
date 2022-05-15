@@ -6,7 +6,7 @@ permalink: "/cookie-notice/"
 hidden: true
 ---
 
-A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you such as a theme preference. Those cookies are set by us and called first-party cookies. We also use third-party cookies – which are cookies from a domain different than the domain of the website you are visiting - for advertising and marketing efforts.
+A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you such as a cookie consent. Those cookies are set by this site and are called first-party cookies. The website also uses third-party cookies – which are cookies from a domain different than the domain of the website you are visiting - for advertising and marketing efforts.
 
 ## Necessary
 Necessary cookies are needed for features that are essential to your use of this site (e.g. your cookie preference).

@@ -4,6 +4,7 @@ title: How I use Travis CI to build my website
 author: Stefan Mitev
 comments: false
 date: 21.04.2019
+permalink: "/articles/how-i-use-travis-ci-to-build-my-website"
 tags:
 - CI
 - jekyll

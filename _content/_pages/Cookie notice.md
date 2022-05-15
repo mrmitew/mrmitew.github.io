@@ -35,4 +35,4 @@ Please keep in mind that visiting a website through an ad, placed on this websit
 
 | Cookie name | Provider | Purpose | Lifespan |
 |--|--|--|--|
-| `_gads` | [Google](https://policies.google.com/privacy) | Used to showing Google Ads, including personalized ads | n/a |
+| `__gads` | [Google](https://policies.google.com/privacy) | Used to showing Google Ads, including personalized ads | 13 months |

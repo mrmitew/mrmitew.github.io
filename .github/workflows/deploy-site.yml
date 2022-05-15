@@ -4,6 +4,9 @@ on: workflow_dispatch
   # push:
   #   branches: release
 
+env:
+  RUBY_VERSION: 2.7
+
 jobs:
   build-deploy:
     name: "Build and deploy"

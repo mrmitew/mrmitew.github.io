@@ -1,0 +1,34 @@
+<script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
+<script>
+    const CookieConsent = window.CookieConsent
+    const cc = new CookieConsent({
+      title: "This website uses cookies 🍪",
+
+      description: `Click “Accept” to enable the webiste to use cookies for analytics and personalization. Customize your preferences in the cookie settings down below or click “Reject” if you do not want the site to use cookies for these purposes. Learn more in the <a href="/cookies">Cookie Notice</a>.`,
+
+      buttons: {
+        acceptAll: "Accept",
+        acceptSelected: "Accept Cookies",
+        reject: "Reject",
+        showSettings: "Cookies settings",
+        hideSettings: "Hide",
+      },
+
+      categories: {
+        necessary: {
+          label: "Necessary",
+          description: `Necessary cookies are needed for features that are essential to your use of this site (e.g. your cookie preference).`,
+          checked: true,
+          mandatory: true
+        },
+        {% if site.google_analytics %}  
+        analytics: {
+          label: "Analytics",
+          description: `Analytics cookies allow us to analyze your visits and actions on this website.`,
+          checked: false,
+          mandatory: false
+        },
+        {% endif %}
+      },
+    })
+  </script>

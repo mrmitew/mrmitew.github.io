@@ -1,0 +1,42 @@
+name: Deploy site
+
+on:
+  push:
+    branches: release
+
+env:
+  RUBY_VERSION: 2.7
+
+jobs:
+  build-deploy:
+    name: "Build and deploy"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Set up dependencies
+        run: |
+          gem update --system --no-document
+          gem update bundler --no-document
+          bundle config set path vendor/bundle
+          bundle install --jobs 4 --retry 3
+          bundle clean
+
+      - name: Build
+        run: JEKYLL_ENV=production bundle exec jekyll build --verbose --trace
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: master
+          cname: mitevstefan.com

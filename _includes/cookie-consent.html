@@ -4,7 +4,7 @@
     const cc = new CookieConsent({
       title: "This website uses cookies 🍪",
 
-      description: `Click “Accept” to enable the webiste to use cookies for analytics and personalization. Customize your preferences in the cookie settings down below or click “Reject” if you do not want the site to use cookies for these purposes. Learn more in the <a href="/cookies">Cookie Notice</a>.`,
+      description: `Click “Accept” to enable the webiste to use cookies for analytics and personalization. Customize your preferences in the cookie settings down below or click “Reject” if you do not want the site to use cookies for these purposes. Learn more in the <a href="/cookie-notice">Cookie Notice</a>.`,
 
       buttons: {
         acceptAll: "Accept",
@@ -25,6 +25,14 @@
         analytics: {
           label: "Analytics",
           description: `Analytics cookies allow us to analyze your visits and actions on this website.`,
+          checked: false,
+          mandatory: false
+        },
+        {% endif %}
+        {% if site.google_adsense.enabled %}  
+        advertising: {
+          label: "Advertising",
+          description: `Advertising cookies allow us to display ads that are more engaging and relevant to you.`,
           checked: false,
           mandatory: false
         },

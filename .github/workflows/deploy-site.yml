@@ -18,7 +18,15 @@ jobs:
         with:
           ruby-version: '3'
           bundler-cache: true
-          
+
+      - name: Set up dependencies
+        run: |
+          gem update --system --no-document
+          gem update bundler --no-document
+          bundle config set path vendor/bundle
+          bundle install --jobs 4 --retry 3
+          bundle clean
+        
       - name: Build
         run: JEKYLL_ENV=production bundle exec jekyll build --trace
 

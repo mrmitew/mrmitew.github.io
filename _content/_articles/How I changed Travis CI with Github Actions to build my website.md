@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How I use changed Travis CI with Github Actions to build my website
+title: How I changed Travis CI with Github Actions to build my website
 author: Stefan Mitev
 comments: false
 date: 19.05.2022
-permalink: "/articles/how-i-use-changed-travis-ci-with-github-actions-to-build-my-website"
+permalink: "/articles/how-i-changed-travis-ci-with-github-actions-to-build-my-website"
 tags:
 - CI
 - jekyll

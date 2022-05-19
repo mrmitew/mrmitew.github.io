@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I changed Travis CI with Github Actions to build my website
+title: How I changed Travis CI with GitHub Actions to build my website
 author: Stefan Mitev
 comments: false
 date: 19.05.2022

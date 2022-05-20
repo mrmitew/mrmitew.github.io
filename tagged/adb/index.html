@@ -11,7 +11,7 @@
 
   <title>
     
-      How I changed Travis CI with GitHub Actions to build my website &middot; Stefan Mitev
+      Posts tagged with adb &middot; Stefan Mitev
     
   </title>
 
@@ -34,7 +34,7 @@
 </head>
 
 
-  <body class="post">
+  <body class="autopage_collections_tags">
 
     <script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
 <script>
@@ -268,127 +268,85 @@
 </div>
 
     <main class="container">
-      <header>
-  <h1 class="post-title">How I changed Travis CI with GitHub Actions to build my website</h1>
-</header>
-<div class="content">
-  <div class="post-meta">
-  <span class="post-date">19 May 2022</span>
+        <div class="content">
+    <h1 class="page-heading">
+      All articles tagged with
+      <a href="#" class="title-tag"><span class="tag-name">adb</span></a>
+    </h1>
+
+    <small>Page 1 of 1</small> <br/> &nbsp;
+
+    
+    
+    <h2 class="post-title">
+      <a href="/articles/how-to-enter-fingerprint-on-android-with-adb">
+        How to enter fingerprint on Android with ADB
+      </a>
+    </h2>
+    <article class="post-body">
+      <div class="post-meta">
+  <span class="post-date">20 May 2022</span>
   <span class="post-categories">
     
   </span>
 </div>
 
 
-  <div class="post-body">
-    <p>It’s been a while since I posted last. In fact I was meaning to post something else first, but I came to the realization that I no longer can use my old Travis CI setup without making some changes. However, instead of fixing it, I took the opportunity to learn something new and decided to give <a href="https://github.com/features/actions">GitHub Actions</a> a go!</p>
-
-<p>To learn about the setup of the website and repository, please read my old article “<a href="https://mitevstefan.com/articles/how-i-use-travis-ci-to-build-my-website">How I use Travis CI to build my website</a>”.</p>
-
-<p>Without changing the structure of the repository, I only had to create a definition for my new GitHub workflow and commit it on my main branch (<code class="highlighter-rouge">release</code> in this case). GitHub then validated the workflow and made it appear in my <a href="https://github.com/mrmitew/mrmitew.github.io/actions">Actions</a>.</p>
-
-<p>I called the workflow “Deploy site” and I stored it in <code class="highlighter-rouge">.github/workflows/deploy-site.yml</code>.</p>
-
-<p>You can choose to re-use existing actions, do everything manually or do like me - mix of both.</p>
-
-<p>The actions I re-used are:</p>
-<ul>
-  <li><code class="highlighter-rouge">actions/checkout</code> for checking-out my repository</li>
-  <li><code class="highlighter-rouge">ruby/setup-ruby</code> for downloading and setting up ruby</li>
-  <li><code class="highlighter-rouge">peaceiris/actions-gh-pages</code> to deploy my static files to the <code class="highlighter-rouge">master</code> branch</li>
-</ul>
-
-<p>Once my static files end up in <code class="highlighter-rouge">master</code>,  GitHub’s <code class="highlighter-rouge">pages-build-deployment</code> workflow would be automatically triggered and will deploy the website to GitHub Pages.</p>
-
-<p>Here is the definition I used</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># .github/workflows/deploy-site.yml</span>
-<span class="na">name</span><span class="pi">:</span> <span class="s">Deploy site</span>
-
-<span class="na">on</span><span class="pi">:</span>
-  <span class="na">push</span><span class="pi">:</span>
-    <span class="na">branches</span><span class="pi">:</span> <span class="s">release</span>
-
-<span class="na">env</span><span class="pi">:</span>
-  <span class="na">RUBY_VERSION</span><span class="pi">:</span> <span class="m">2.7</span>
-
-<span class="na">jobs</span><span class="pi">:</span>
-  <span class="na">build-deploy</span><span class="pi">:</span>
-    <span class="na">name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Build</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">deploy"</span>
-    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
-
-    <span class="na">steps</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
       
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Set up Ruby</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
-        <span class="na">with</span><span class="pi">:</span>
-          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span>
+        
+          <p>Ever wondered how to enter fingerprint on Android using ADB?</p>
 
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Set up dependencies</span>
-        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
-          <span class="s">gem update --system --no-document</span>
-          <span class="s">gem update bundler --no-document</span>
-          <span class="s">bundle config set path vendor/bundle</span>
-          <span class="s">bundle install --jobs 4 --retry 3</span>
-          <span class="s">bundle clean</span>
 
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build</span>
-        <span class="na">run</span><span class="pi">:</span> <span class="s">JEKYLL_ENV=production bundle exec jekyll build --verbose --trace</span>
+        
+        
+          
+          
 
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-gh-pages@v3</span>
-        <span class="na">with</span><span class="pi">:</span>
-          <span class="na">github_token</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">publish_dir</span><span class="pi">:</span> <span class="s">./_site</span>
-          <span class="na">publish_branch</span><span class="pi">:</span> <span class="s">master</span>
-          <span class="na">commit_message</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">user_name</span><span class="pi">:</span> <span class="s1">'</span><span class="s">github-actions[bot]'</span>
-          <span class="na">user_email</span><span class="pi">:</span> <span class="s1">'</span><span class="s">github-actions[bot]@users.noreply.github.com'</span>
-          <span class="na">force_orphan</span><span class="pi">:</span> <span class="no">false</span>
-          <span class="na">destination_dir</span><span class="pi">:</span> <span class="s">./</span>
-          <span class="na">cname</span><span class="pi">:</span> <span class="s">mitevstefan.com</span>
-</code></pre></div></div>
+          
+            <a href="/articles/how-to-enter-fingerprint-on-android-with-adb" class="more">read more&hellip;</a>
+          
+        
+      
 
-<h2 id="references">References</h2>
-<ul>
-  <li>https://github.com/actions/checkout</li>
-  <li>https://github.com/ruby/setup-ruby</li>
-  <li>https://github.com/peaceiris/actions-gh-pages</li>
-  <li>https://github.com/jekyll/jekyll</li>
-</ul>
-
-    
+      <!-- <br/>&nbsp; -->
+      
 
 
 
 <div class="post-tags">
   
     
-    <a href="/tags/#ci">
+    <a href="/tags/#adb">
     
       <span class="icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.605 0h-10.605v10.609l13.391 13.391 10.609-10.604-13.395-13.396zm-4.191 6.414c-.781.781-2.046.781-2.829.001-.781-.783-.781-2.048 0-2.829.782-.782 2.048-.781 2.829-.001.782.782.781 2.047 0 2.829z"/></svg>
-      </span>&nbsp;<span class="tag-name">CI</span>
+      </span>&nbsp;<span class="tag-name">adb</span>
     </a>
   
     
-    <a href="/tags/#jekyll">
+    <a href="/tags/#snippet">
     
       <span class="icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.605 0h-10.605v10.609l13.391 13.391 10.609-10.604-13.395-13.396zm-4.191 6.414c-.781.781-2.046.781-2.829.001-.781-.783-.781-2.048 0-2.829.782-.782 2.048-.781 2.829-.001.782.782.781 2.047 0 2.829z"/></svg>
-      </span>&nbsp;<span class="tag-name">jekyll</span>
+      </span>&nbsp;<span class="tag-name">snippet</span>
     </a>
   
 </div>
+
+    </article>
+    
+    
+
+    <style>
+    .pagination li {
+        float: left;
+        list-style-type: none;
+        padding-right: 16px;
+    }
+</style>
+
+
   </div>
-
-  
-  
-</div>
-
     </main>
 
     <!-- Optional footer content -->

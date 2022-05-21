@@ -27,7 +27,7 @@ Analytics cookies allows the site owner to analyze your visits and actions on th
 | `_gat` | [Google](https://policies.google.com/privacy) | Used to throttle request rate | 1 min |
 | `AMP_TOKEN` | [Google](https://policies.google.com/privacy) | Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values indicate opt-out, inflight request or an error retrieving a Client ID from AMP Client ID service | 30 sec to 1 year |
 | `_gac_<id>` | [Google](https://policies.google.com/privacy) | Contains campaign related information for the user | 90 days |
-
+{% if site.google_adsense.enabled %}
 ## Advertising
 Advertising cookies are used similarly to the analytics cookies to track visitors across this website. However, they are used to display ads that are more relevant and engaging for each individual user, avoid showing ads the user has already seen and improve reporting on campaign performance.
 
@@ -36,3 +36,4 @@ Please keep in mind that visiting a website through an ad, placed on this websit
 | Cookie name | Provider | Purpose | Lifespan |
 |--|--|--|--|
 | `__gads` | [Google](https://policies.google.com/privacy) | Used to showing Google Ads, including personalized ads | 13 months |
+{% endif %}

@@ -8,6 +8,7 @@ permalink: "/articles/how-to-enter-fingerprint-on-android-with-adb"
 tags:
 - adb
 - snippet
+- android
 ---
 
 Ever wondered how to enter fingerprint on Android using ADB? 

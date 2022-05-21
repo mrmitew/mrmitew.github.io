@@ -31,6 +31,7 @@ This website makes use of [Google Analytics](https://analytics.google.com/analyt
 
 For more information, please refer to the [cookie notice](/cookie-notice/).
 
+{% if site.google_adsense.enabled %}  
 **Advertising** 
 
 This website makes use of [Google Adsense](https://www.google.com/adsense/start/), a Google product that allows publishers to earn money from their online content.
@@ -44,7 +45,7 @@ Please keep in mind that visiting a website through an ad, placed on this websit
 Third party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites.
 
 Google's use of advertising cookies enables it and its partners to serve ads to users of this site, based on their visit of other sites on the Internet.
-
+{% endif %}
 **Cookie notice** 
 
 You can refer to the [cookie notice](/cookie-notice/) page to learn more about the individual cookies, used in this website, what they are used for, how long they are valid for and links to the privacy policy pages for each of the providers for these cookies.

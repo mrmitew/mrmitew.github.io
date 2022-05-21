@@ -14,7 +14,7 @@ baseurl:          ''
 #version: 1.0.0
 google_analytics: 'UA-138726311-1'
 google_adsense:
-  enabled: true
+  enabled: false
   client: 'ca-pub-3213394586011217'
 
 author:

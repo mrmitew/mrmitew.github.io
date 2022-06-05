@@ -10,7 +10,7 @@ layout: default
 
   {% for post in paginator.posts %}
 
-    {% unless post.title == "Index" or post.title == "Search" or post.sidebar_link == true or post.title == 'Tags' %}
+    {% unless post.title == "Index" or post.title == "Search" or post.sidebar_link == true or post.title == 'Tags' or post.title == 'Archive' %}
     
     {% if site.google_adsense.enabled %}
       {% if post_counter == 1 %}

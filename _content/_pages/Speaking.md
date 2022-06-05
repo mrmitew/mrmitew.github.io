@@ -7,10 +7,12 @@ permalink: "/speaking/"
 
 ### Upcoming
 
+**Crash course on package visibility in Android 11+** - 15 June 2022  
+_Flitsmeister, Veenendaal, Netherlands_  
+Presentation (soon) | [Event](https://www.meetup.com/dutch-aug/events/286333942/)
+
 **ING Internal presentations** - Monthly  
 _ING, Amsterdam, Netherlands_ 
-
-_Nothing public yet_
 
 ### Past
 

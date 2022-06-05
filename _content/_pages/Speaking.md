@@ -3,6 +3,7 @@ layout: page
 title: Speaking
 sidebar_link: true
 permalink: "/speaking/"
+sidebar_sort_order: 3
 ---
 
 ### Upcoming

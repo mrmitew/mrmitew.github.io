@@ -3,6 +3,7 @@ layout: page
 title: About
 sidebar_link: true
 permalink: "/about/"
+sidebar_sort_order: 2
 ---
 
 My name is Stefan Mitev and am a software engineer with: 

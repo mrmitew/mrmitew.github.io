@@ -202,6 +202,6 @@ Thanks a lot for the read! I hope I managed to help at least one person. That'd 
 See you on the road! /\
 
 ## References
-- [Inspection checklist when buying a motorcycle](https://mitevstefan.com/articles/Inspection-checklist-for-evaluating-the-condition-of-a-motorcycle)
+- [Inspection checklist for evaluating the condition of a motorcycle](https://mitevstefan.com/articles/Inspection-checklist-for-evaluating-the-condition-of-a-motorcycle)
 - [5 Telltale Signs of a Bad Used Motorcycle](https://www.youtube.com/watch?v=VKGZdsIkLog){:target="_blank"} by FortNine
 - [How To Buy A Used Motorcycle](https://www.youtube.com/watch?v=ea2VK1jwdsg){:target="_blank"} by RevZilla

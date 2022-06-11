@@ -182,3 +182,6 @@ Take everything into an account when forming your opinion on the bike. It will h
 ## References
 - [5 Telltale Signs of a Bad Used Motorcycle](https://www.youtube.com/watch?v=VKGZdsIkLog){:target="_blank"} by FortNine
 - [How To Buy A Used Motorcycle](https://www.youtube.com/watch?v=ea2VK1jwdsg){:target="_blank"} by RevZilla
+
+## See also
+- [Tips for buying your first motorcycle](https://mitevstefan.com/articles/Tips-for-buying-your-first-motorcycle/)

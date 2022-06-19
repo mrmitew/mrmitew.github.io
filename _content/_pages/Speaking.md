@@ -8,14 +8,13 @@ sidebar_sort_order: 3
 
 ### Upcoming
 
-**Crash course on package visibility in Android 11+** - 15 June 2022  
-_Flitsmeister, Veenendaal, Netherlands_  
-Presentation (soon) | [Event](https://www.meetup.com/dutch-aug/events/286333942/)
-
 **ING Internal presentations** - Monthly  
 _ING, Amsterdam, Netherlands_ 
 
 ### Past
+**Crash course on package visibility in Android 11+** - 15 June 2022  
+_Flitsmeister, Veenendaal, Netherlands_  
+Presentation (soon) | [Event](https://www.meetup.com/dutch-aug/events/286333942/)
 
 **Going with the Flow** _(Kotlin Flow)_ - 30 April 2020  
 _Dutch Android User Group, Utrecht, Netherlands_  

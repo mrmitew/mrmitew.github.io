@@ -8,7 +8,7 @@ tags:
 - android
 ---
  
-Android 11 is an old news, yep (unless you have lived under a rock for a while). However, from July 12th 2022, Google is going to enforce a [policy](https://support.google.com/googleplay/android-developer/answer/10158779) that affects all apps targetting Android 11+ (API 30+), which.. makes this article still kind-of relevant.
+Android 11 is an old news, yep (unless you have lived under a rock for a while). However, from July 12th 2022, Google is going to enforce a [policy](https://support.google.com/googleplay/android-developer/answer/10158779) that affects apps targetting Android 11+ (API 30+), which.. makes this article still kind-of relevant.
 
 So what's going on you wonder? Let me explain some things that changed in Android 11 first.
 
